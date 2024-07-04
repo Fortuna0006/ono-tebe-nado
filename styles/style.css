@@ -1,209 +1,217 @@
 .header {
-    display: flex;
-    justify-self: space-around;
-    width: 1052px;
-    height: 105px;
-    top: 92px;
-    left: 24px;
-background-color: antiquewhite;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(1, 1fr);
+  width: 1052px;
+  height: 105px;
+  margin-top: 92px;
+  margin-left: 24px;
+  margin-bottom: 96px;
+  background-color: antiquewhite;
 }
 
 .header_menu {
-
+  padding-top: 44px;
+  padding-left: 27px;
+  padding-bottom: 39px;
+  display: inline;
 }
 
 .header_link-list {
-
 }
 
 .header_link-list-item {
-
 }
 
 .header_link-list-item_no-bullit {
-
+  list-style-type: none;
 }
 
 .header_link {
-
+  text-decoration: none;
 }
 
 .header_link_active {
-
+  list-style: circle;
+  text-decoration: underline;
+  text-decoration-color: black;
 }
 
 .header_logo {
-
+  display: block;
+  justify-self: center;
 }
 
 .header_logo-image {
-
+  width: 148px;
+  height: 105px;
 }
 
 .address {
-
+  font-style: normal;
+  width: 240px;
+  height: 98px;
 }
 
-.header_adress {
-
+.header_address {
+  justify-self: end;
+  padding-right: 25px;
+  padding-top: 5px;
 }
 
 .cover {
-
+  position: relative;
+ height: 757px;
 }
 
 .overlay {
-
+    position: absolute;
+    height: 757px;
+  background-color: black;
+  opacity: 60%;
 }
 
-.cover_titel {
-
+.cover_title {
+  position: absolute;
+  top: 250px;
+  color: white;
+  text-transform: uppercase;
+  letter-spacing: 40px;
+  font-size: 95px;
 }
 
 .aligned-text {
-
+  top: 165px;
+bottom: 477px;
+  left: 50px;
+  right: 734px;
 }
 
 .aligned-text_center {
-
+    top: 300px;
+    bottom: 357px;
+    right: 395px;
+  left: 336px;
 }
 
 .aligned-text_right {
-
+    top: 420px;
+    right: 50px;
+    bottom: 637px;
+  left: 633px;
 }
 
 .letter-spacing-extended {
-
 }
 
-.no-letter-spacing  {
+.no-letter-spacing {
+}
+
+.cover_descriprion {
 
 }
 
 .cover_discription-text {
-
+    font-weight: 100;
+    position: absolute;
+    font-size:  60px;
+    word-spacing:30px ;
+    text-transform: uppercase;
 }
 
 .bet-button {
-
+position: absolute;
+text-transform: uppercase;
+background-color: white;
+opacity: 1;
 }
 
 .lots {
-
 }
 
 .lots_heading {
-
 }
 
 .lots_card-list {
-
 }
 
 .lots_card-list-item {
-
 }
 
 .card-link {
-
 }
 
 .card {
-
 }
 
 .card_type_film {
-
 }
 
 .card_type_book {
-
 }
 
 .card_type_picture {
-
 }
 
 .overlay {
-
 }
 
 .card_title {
-
 }
 
 .card_text {
-
 }
 
 .lots_look-more-link {
-
 }
 
 .about {
-
 }
 
 .about_column {
-
 }
 
-.about_logo{
-
+.about_logo {
 }
 
 .about_logo-image {
-
 }
 
-.about_title{
-
+.about_title {
 }
 
 .about_text {
-
 }
 
 .footer {
-
 }
 
 .address {
-
 }
 
 .footer_menu {
-
 }
 
 .footer_menu-list {
-
 }
 
 .footer_menu-list-item {
-
 }
 
 .footer_menu-link {
-
 }
 
 .footer_menu-link_active {
-
 }
 
 .footer_social-list {
-
 }
 
 .footer_social-list-item {
-
 }
 
 .footer_social-link {
-
 }
 
 .footer_social-icon {
-    
 }
