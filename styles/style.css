@@ -7,24 +7,25 @@
   margin-top: 92px;
   margin-left: 24px;
   margin-bottom: 96px;
-  background-color: antiquewhite;
 }
 
 .header_menu {
+  white-space: nowrap;
+  margin: auto;
   padding-top: 44px;
   padding-left: 27px;
   padding-bottom: 39px;
-  display: inline;
 }
 
 .header_link-list {
 }
 
 .header_link-list-item {
+  display: inline;
 }
 
 .header_link-list-item_no-bullit {
-  list-style-type: none;
+  list-style: none;
 }
 
 .header_link {
@@ -32,9 +33,9 @@
 }
 
 .header_link_active {
-  list-style: circle;
   text-decoration: underline;
   text-decoration-color: black;
+  list-style: circle;
 }
 
 .header_logo {
@@ -61,111 +62,187 @@
 
 .cover {
   position: relative;
- height: 757px;
+  display: flex;
+  height: 757px;
+  z-index: -1;
+  width: 1100px;
 }
 
 .overlay {
-    position: absolute;
-    height: 757px;
-  background-color: black;
-  opacity: 60%;
+  position: absolute;
+  display: flex;
+  background-color: #000;
+  opacity: 0.6;
+  z-index: -1;
+  width: 100%;
+  height: 100%;
 }
 
 .cover_title {
-  position: absolute;
   top: 250px;
   color: white;
   text-transform: uppercase;
-  letter-spacing: 40px;
   font-size: 95px;
 }
 
 .aligned-text {
+  position: absolute;
+  z-index: 2;
   top: 165px;
-bottom: 477px;
+  bottom: 477px;
   left: 50px;
   right: 734px;
 }
 
 .aligned-text_center {
-    top: 300px;
-    bottom: 357px;
-    right: 395px;
+  position: absolute;
+  z-index: 2;
+  top: 300px;
+  bottom: 357px;
+  right: 395px;
   left: 336px;
 }
 
 .aligned-text_right {
-    top: 420px;
-    right: 50px;
-    bottom: 637px;
+  position: absolute;
+  z-index: 2;
+  top: 420px;
+  right: 50px;
+  bottom: 637px;
   left: 633px;
 }
 
 .letter-spacing-extended {
+  letter-spacing: 40px;
 }
 
 .no-letter-spacing {
+  letter-spacing: normal;
 }
 
 .cover_descriprion {
-
+  z-index: 1;
+  position: absolute;
+  z-index: 1;
+  display: inline-block;
 }
 
-.cover_discription-text {
-    font-weight: 100;
-    position: absolute;
-    font-size:  60px;
-    word-spacing:30px ;
-    text-transform: uppercase;
+.cover_description-text {
+  color: white;
+  font-weight: 200;
+  position: absolute;
+  font-size: 23px;
+  word-spacing: 15px;
+  text-transform: uppercase;
+  bottom: 62px;
+  left: 78px;
+  right: 385px;
+  white-space: nowrap;
 }
 
 .bet-button {
-position: absolute;
-text-transform: uppercase;
-background-color: white;
-opacity: 1;
+  top: 655px;
+  nav-left: 794px;
+  right: 50px;
+  bottom: 51px;
+  position: absolute;
+  text-transform: uppercase;
+  font-size: 23px;
+  border-color: white;
+  background-image: none;
+  background: transparent;
+  float: left;
+  background-color: transparent;
+  color: white;
 }
 
 .lots {
+  margin-right: 24px;
+  margin-left: 24px;
+  height: 692px;
+  width: 1052px;
+  top: 1229px;
+  background-color: antiquewhite;
+  z-index: -1;
 }
 
 .lots_heading {
+  margin-top: 179px;
+  margin-left: 40px;
+  margin-bottom: 27px;
+  font-size: 40px;
+  text-transform: uppercase;
 }
 
 .lots_card-list {
+  list-style: none;
 }
 
 .lots_card-list-item {
+  flex-grow: 1;
 }
 
 .card-link {
+  text-decoration-color: white;
 }
 
 .card {
+  display: flex;
+  width: 563px;
+  z-index: 0;
+  height: 334px;
+  top: 74px;
 }
 
 .card_type_film {
+  position: relative;
+  height: 563px;
+  width: 334px;
+  left: 24px;
+  bottom: 201px;
 }
 
 .card_type_book {
+position: relative;
+  height: 563px;
+  width: 334px;
+  margin-top: 253px;
+  right: 25px;
+  bottom: 201px;
 }
 
 .card_type_picture {
-}
-
-.overlay {
+position: relative;
+  height: 563px;
+  width: 334px;
+  margin-top: 253px;
+  left: 718px;
+  bottom: 201px;
 }
 
 .card_title {
+  position: absolute;
+  z-index: 1;
+  color: white;
+  text-transform: uppercase;
 }
 
 .card_text {
+  position: absolute;
+  z-index: 1;
+  color: white;
 }
 
 .lots_look-more-link {
 }
 
 .about {
+  height: 595px;
+  margin-top: 146px;
+  margin-left: 24px;
+  margin-right: 24px;
+  bottom: 366px;
+  background-color: aquamarine;
 }
 
 .about_column {
@@ -184,15 +261,21 @@ opacity: 1;
 }
 
 .footer {
-}
-
-.address {
+  display: flex;
+  margin: auto;
+  justify-content: baseline;
+  height: 98px;
+  margin-top: 180px;
+  margin-left: 50px;
+  margin-right: 50px;
+  background-color: blueviolet;
 }
 
 .footer_menu {
 }
 
 .footer_menu-list {
+  list-style-type: none;
 }
 
 .footer_menu-list-item {
