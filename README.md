@@ -1,1 +1,1 @@
-#ono-tebe-https://github.com/Fortuna0006/ono-tebe-nado.git
+https://github.com/Fortuna0006/ono-tebe-nado.git
